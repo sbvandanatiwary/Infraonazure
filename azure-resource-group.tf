@@ -4,7 +4,7 @@ terraform {
     organization = "SabreADI"
 
     workspaces {
-      name = "SabreAditestws"
+      name = "Infraonazure"
     }
   }
 
