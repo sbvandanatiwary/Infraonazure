@@ -23,7 +23,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroupckc"
+  name     = "myTFResourceGroupcc"
   location = "westus2"
 }
 
