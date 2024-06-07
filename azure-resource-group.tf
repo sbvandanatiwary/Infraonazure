@@ -22,9 +22,15 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroupcc"
+resource "azurerm_resource_group" "rg1" {
+  name     = "myTFResourceGroupcc1"
   location = "westus2"
 }
+
+resource "azurerm_resource_group" "rg2" {
+  name     = "myTFResourceGroupcc2"
+  location = "westus2"
+}
+
 
 
