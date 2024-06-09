@@ -32,5 +32,15 @@ resource "azurerm_resource_group" "rg2" {
   location = "westus2"
 }
 
+output "rg1" {
+  description = "info of rg1"
+  value       = azurerm_resource_group.rg1
+  }
+output "rg2" {
+  description = "info of rg2"
+  value  = azurerm_resource_group.rg2
+  }
+
+
 
 
